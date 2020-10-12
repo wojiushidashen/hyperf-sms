@@ -1,5 +1,5 @@
 {
-    "name": "hyperf-libraries/sms",
+    "name": "hyperf-sms",
     "type": "library",
     "license": "MIT",
     "keywords": [
