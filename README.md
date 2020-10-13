@@ -40,11 +40,11 @@
 ## 安装
 
 ```
-$ composer require "hyperf-libraries/sms"
+$ composer require "hyperf-lib/sms"
 ```
 
 ```
-$ php bin/hyperf.php vendor:publish hyperf-libraries/sms
+$ php bin/hyperf.php vendor:publish hyperf-lib/sms
 ```
 
 ## 使用
