@@ -31,7 +31,7 @@ class NoGatewayAvailableException extends Exception
     {//var_dump($results['qcloud']['exception']->getMessage());exit;
         $this->results = $results;
         $this->exceptions = \array_column($results, 'exception', 'gateway');
-        parent::__construct('All the gateways have failed. You can get error details by `$exception->getExceptions()`', $code, $previous);
+        parent::__construct(json_encode($results), $code, $previous);
     }
     /**
      * @return array
